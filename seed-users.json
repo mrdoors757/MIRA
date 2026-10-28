@@ -1,0 +1,86 @@
+[
+ {
+  "username": "mira.lee",
+  "name": "Мира Ли",
+  "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=160&h=160&q=80",
+  "bio": "ловлю моменты ✨",
+  "id": "demo-a"
+ },
+ {
+  "username": "artem.day",
+  "name": "Артём Волков",
+  "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=160&h=160&q=80",
+  "bio": "делаю красиво",
+  "id": "demo-b"
+ },
+ {
+  "username": "nora.frames",
+  "name": "Нора",
+  "avatar": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=160&h=160&q=80",
+  "bio": "собираю красивые детали",
+  "id": "demo-c"
+ },
+ {
+  "username": "daniel.city",
+  "name": "Даниэль",
+  "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=160&h=160&q=80",
+  "bio": "город, кофе и плёнка",
+  "id": "demo-d"
+ },
+ {
+  "username": "lena.sun",
+  "name": "Лена Солнце",
+  "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=160&h=160&q=80",
+  "bio": "маленькие радости каждый день",
+  "id": "demo-e"
+ },
+ {
+  "username": "max.ontheroad",
+  "name": "Макс",
+  "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=160&h=160&q=80",
+  "bio": "в пути 🚲",
+  "id": "demo-f"
+ },
+ {
+  "username": "sara.makes",
+  "name": "Сара",
+  "avatar": "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?auto=format&fit=crop&w=160&h=160&q=80",
+  "bio": "создаю своё",
+  "id": "demo-g"
+ },
+ {
+  "username": "leo.weekends",
+  "name": "Лео",
+  "avatar": "https://images.unsplash.com/photo-1521119989659-a83eee488004?auto=format&fit=crop&w=160&h=160&q=80",
+  "bio": "выходные вне города",
+  "id": "demo-h"
+ },
+ {
+  "username": "yuna.color",
+  "name": "Юна",
+  "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=160&h=160&q=80",
+  "bio": "ищу цвет в обычном",
+  "id": "demo-i"
+ },
+ {
+  "username": "amir.notes",
+  "name": "Амир",
+  "avatar": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=160&h=160&q=80",
+  "bio": "мысли и заметки",
+  "id": "demo-j"
+ },
+ {
+  "username": "olivia.mood",
+  "name": "Оливия",
+  "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=160&h=160&q=80",
+  "bio": "сохраняю настроение",
+  "id": "demo-k"
+ },
+ {
+  "username": "sam.analog",
+  "name": "Сэм",
+  "avatar": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=160&h=160&q=80",
+  "bio": "аналоговые кадры",
+  "id": "demo-l"
+ }
+]

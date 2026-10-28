@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f2ec"><meta name="description" content="MIRA — делись своим миром.">
+  <title>MIRA — Share your world</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/ext.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#home" aria-label="MIRA главная"><span class="brand-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="brandGrad" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#e66d51"/><stop offset=".55" stop-color="#f29a72"/><stop offset="1" stop-color="#f7c9a9"/></linearGradient></defs><rect x="2" y="2" width="44" height="44" rx="15" fill="url(#brandGrad)"/><path d="M15 13v19c0 2 1.5 3 3.5 3H32" fill="none" stroke="white" stroke-width="4.5" stroke-linecap="round"/><circle cx="32" cy="14" r="3" fill="white"/></svg></span><span class="brand-word">MIRA<span class="brand-dot">.</span><small>SHARE YOUR WORLD</small></span></a>
+      <div class="side-label">МЕНЮ</div>
+      <nav class="main-nav">
+        <button class="nav-item active" data-view="home"><span class="nav-icon">⌂</span><span>Главная</span></button>
+        <button class="nav-item" data-view="explore"><span class="nav-icon">⌕</span><span>Интересное</span></button>
+        <button class="nav-item" data-action="create"><span class="nav-icon">＋</span><span>Создать пост</span></button>
+        <button class="nav-item" data-view="saved"><span class="nav-icon">♧</span><span>Сохранённое</span><span class="nav-soon">NEW</span></button>
+      </nav>
+      <div class="side-label community-label">ТВОЙ МИР</div>
+      <button class="nav-item" data-action="profile"><span class="nav-icon">◎</span><span>Мой профиль</span></button>
+      <button class="nav-item" data-view="messages"><span class="nav-icon">✉</span><span>Сообщения</span><span class="message-pip"></span></button>
+      <div class="sidebar-bottom"><div class="sidebar-promo"><div class="promo-orb">✦</div><strong>Твой мир. Твои правила.</strong><p>Делись моментами, которые хочется сохранить.</p><span class="promo-tag">WELCOME TO MIRA</span></div><button class="profile-mini" id="sidebarProfile"><span class="avatar avatar-small" id="sideAvatar">L</span><span class="mini-user"><b id="sideName">Гость MIRA</b><small id="sideHandle">Войди, чтобы начать</small></span><span class="mini-more">···</span></button></div>
+    </aside>
+    <main class="main-area">
+      <header class="topbar"><div class="mobile-brand"><span class="brand-mark small-mark"><svg viewBox="0 0 48 48"><rect x="2" y="2" width="44" height="44" rx="15" fill="url(#brandGrad)"/><path d="M15 13v19c0 2 1.5 3 3.5 3H32" fill="none" stroke="white" stroke-width="4.5" stroke-linecap="round"/><circle cx="32" cy="14" r="3" fill="white"/></svg></span><b>MIRA<span class="brand-dot">.</span></b></div><div class="top-title"><span class="eyebrow">ТВОЁ ПРОСТРАНСТВО</span><h1 id="pageTitle">Твоя лента <span class="title-spark">✦</span></h1></div><div class="top-actions"><label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Поиск людей..." autocomplete="off"><kbd>⌘ K</kbd></label><button class="icon-button notification-btn" title="Уведомления" id="notifyBtn">♧<i></i></button><button class="top-avatar avatar" id="topAvatar">L</button></div></header>
+      <div class="content-grid"><section class="feed-column"><div class="welcome-banner"><div class="banner-copy"><span class="banner-kicker"><span class="live-dot"></span> ТВОЯ ЛЕНТА, ТВОИ МОМЕНТЫ</span><h2>Мир становится ярче,<br>когда <span>делишься.</span></h2><p>Покажи миру то, что делает тебя тобой.</p><button class="primary-button" data-action="create">＋ &nbsp;Создать публикацию <span>↗</span></button></div><div class="banner-art"><div class="art-ring ring-a"></div><div class="art-ring ring-b"></div><div class="art-glow"></div><div class="art-card card-back">✦</div><div class="art-card card-front"><div class="art-photo"><span>✧</span></div><div class="art-card-lines"><i></i><i></i></div><div class="art-heart">♥</div></div><div class="float-star star-one">✦</div><div class="float-star star-two">✧</div></div><div class="banner-index">01 <span>/</span> 03</div></div>
+        <section class="stories-section"><div class="section-heading"><div><h3>Моменты <span class="tiny-spark">✦</span></h3><p>Истории друзей · исчезают через 24 часа</p></div><button class="text-button" id="allStories">Смотреть все <span>→</span></button></div><div class="stories-row" id="storiesRow"><button class="story add-story" data-action="story"><span class="story-ring add-ring"><span>＋</span></span><b>Твоя история</b></button></div></section>
+        <section class="reels-section"><div class="section-heading"><div><h3>Рилсы <span class="tiny-spark">✦</span></h3><p>Короткие визуальные истории сообщества</p></div><button class="text-button" data-action="reel">＋ Добавить рилс</button></div><div class="reels-row" id="reelsRow"><div class="reel-empty">Здесь появятся короткие истории участников.</div></div></section>
+        <div class="feed-toolbar"><div class="section-heading feed-heading"><div><h3 id="feedHeading">Для тебя <span class="tiny-spark">✦</span></h3><p>Свежие идеи из твоего круга</p></div></div><div class="feed-tabs"><button class="feed-tab active" data-filter="for-you">Для тебя</button><button class="feed-tab" data-filter="following">Подписки</button></div></div>
+        <div id="feed" class="feed-list"><div class="loading-card"><span class="loader"></span><span>Загружаем твой мир...</span></div></div>
+        <div class="end-note"><span>✦</span><p>Ты посмотрел всё самое свежее.<br><b>Оставайся ярким.</b></p><span>✦</span></div>
+      </section>
+      <aside class="right-column"><section class="side-card profile-card"><div class="card-topline"><span>ТВОЙ ПРОФИЛЬ</span><button class="dots-button" id="profileMenu">···</button></div><div class="profile-cover"><div class="cover-orb orb-one"></div><div class="cover-orb orb-two"></div><div class="cover-stars">✦　✧　·</div></div><div class="profile-card-main"><div class="profile-card-avatar avatar" id="profileCardAvatar">L</div><div class="profile-card-title"><b id="profileCardName">Твой мир ждёт</b><span id="profileCardHandle">@guest</span></div><p id="profileCardBio">Войди или создай аккаунт, чтобы делиться моментами.</p><div class="profile-stats"><div><b id="postCount">—</b><span>Посты</span></div><div><b id="followerCount">—</b><span>Подписчики</span></div><div><b id="followingCount">—</b><span>Подписки</span></div></div><button class="outline-button full-button" id="profileAction">Войти в MIRA <span>↗</span></button></div></section>
+        <section class="side-card suggestions-card"><div class="card-heading"><div><h3>Кого читать</h3><p>Открой новые профили и напиши первым</p></div><span class="heading-spark">✧</span></div><div id="suggestions"><div class="suggestion-placeholder"><span class="loader small-loader"></span>Ищем интересных людей</div></div><button class="see-more" data-view="explore">Больше авторов <span>→</span></button></section>
+        <section class="side-card trend-card"><div class="card-heading"><div><h3>В тренде <span class="trend-icon">↗</span></h3><p>Темы, которые обсуждают</p></div><span class="trend-pill">LIVE</span></div><button class="trend-row" data-tag="mira moments"><span class="trend-number">01</span><span><b>#miraMoments</b><small>Твои маленькие истории</small></span><span class="trend-arrow">↗</span></button><button class="trend-row" data-tag="creative life"><span class="trend-number">02</span><span><b>#creativeLife</b><small>Вдохновение каждый день</small></span><span class="trend-arrow">↗</span></button><button class="trend-row" data-tag="weekend mood"><span class="trend-number">03</span><span><b>#weekendMood</b><small>Поймай свой вайб</small></span><span class="trend-arrow">↗</span></button></section><footer class="site-footer"><span>О MIRA</span><span>·</span><span>Правила</span><span>·</span><span>Конфиденциальность</span><p>© 2026 MIRA STUDIO · СОЗДАНО ДЛЯ ТЕБЯ</p></footer></aside></div>
+    </main>
+  </div>
+  <nav class="mobile-nav"><button class="active" data-view="home"><span>⌂</span><small>Главная</small></button><button data-view="explore"><span>⌕</span><small>Поиск</small></button><button class="mobile-create" data-action="create"><span>＋</span></button><button data-view="messages"><span>✉</span><small>Чаты</small></button><button data-action="profile"><span>◎</span><small>Профиль</small></button></nav>
+  <div class="toast" id="toast" role="status"></div>
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true"><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="Закрыть">×</button><div id="modalContent"></div></section></div>
+  <script src="/app.js"></script>
+  <script src="/ext.js"></script>
+</body></html>
